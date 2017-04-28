@@ -14,6 +14,7 @@
 		900CA1BE1EB2FD6800E07B6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900CA1BC1EB2FD6800E07B6F /* LaunchScreen.storyboard */; };
 		900CA1C91EB2FD6900E07B6F /* Collection_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900CA1C81EB2FD6900E07B6F /* Collection_ViewTests.swift */; };
 		900CA1D41EB2FD6900E07B6F /* Collection_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900CA1D31EB2FD6900E07B6F /* Collection_ViewUITests.swift */; };
+		900CA1E21EB3032900E07B6F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900CA1E11EB3032900E07B6F /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		900CA1CF1EB2FD6900E07B6F /* Collection_ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Collection_ViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		900CA1D31EB2FD6900E07B6F /* Collection_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_ViewUITests.swift; sourceTree = "<group>"; };
 		900CA1D51EB2FD6900E07B6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		900CA1E11EB3032900E07B6F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				900CA1B31EB2FD6800E07B6F /* AppDelegate.swift */,
 				900CA1B51EB2FD6800E07B6F /* ViewController.swift */,
 				900CA1B71EB2FD6800E07B6F /* Main.storyboard */,
+				900CA1E11EB3032900E07B6F /* MyCollectionViewCell.swift */,
 				900CA1BA1EB2FD6800E07B6F /* Assets.xcassets */,
 				900CA1BC1EB2FD6800E07B6F /* LaunchScreen.storyboard */,
 				900CA1BF1EB2FD6800E07B6F /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				900CA1B61EB2FD6800E07B6F /* ViewController.swift in Sources */,
 				900CA1B41EB2FD6800E07B6F /* AppDelegate.swift in Sources */,
+				900CA1E21EB3032900E07B6F /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
